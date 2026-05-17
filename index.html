@@ -49,12 +49,11 @@
   .exp-bullets li{font-size:12px;color:#94a3b8;line-height:1.8;}
   .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
   .proj-card{background:#0d1224;border:1px solid #1e2d4a;border-radius:12px;padding:1.25rem;}
-  .proj-icon{font-size:26px;color:#60a5fa;margin-bottom:8px;}
   .proj-title{font-size:14px;font-weight:600;color:#f1f5f9;margin-bottom:6px;}
   .proj-desc{font-size:12px;color:#94a3b8;line-height:1.8;margin-bottom:10px;}
   .cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;}
   .cert-card{background:#0d1224;border:1px solid #1e2d4a;border-radius:10px;padding:1rem;display:flex;align-items:center;gap:12px;}
-  .cert-icon{font-size:22px;color:#f59e0b;}
+  .cert-icon{color:#f59e0b;font-size:20px;}
   .cert-name{font-size:12px;font-weight:600;color:#cbd5e1;}
   .edu-card{background:#0d1224;border:1px solid #1e2d4a;border-left:3px solid #8b5cf6;border-radius:10px;padding:1.25rem;}
   .edu-title{font-size:15px;font-weight:600;color:#f1f5f9;}
@@ -62,6 +61,7 @@
   .edu-courses{font-size:12px;color:#94a3b8;line-height:1.8;}
   .soft-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
   .soft-card{background:#0d1224;border:1px solid #1e2d4a;border-radius:10px;padding:0.9rem;text-align:center;font-size:12px;font-weight:600;color:#7dd3fc;}
+  .soft-card i{display:block;font-size:20px;margin-bottom:6px;color:#60a5fa;}
   .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;}
   .contact-info{display:flex;flex-direction:column;gap:10px;}
   .contact-item{display:flex;align-items:center;gap:12px;background:#0d1224;border:1px solid #1e2d4a;border-radius:10px;padding:0.85rem 1rem;}
@@ -89,14 +89,14 @@
 </nav>
 
 <div class="hero">
-  <div class="hero-badge">&#9679; Open to work</div>
-  <h1>Muhammad <span>Danyal</span></h1>
+  <div class="hero-badge">Open to work</div>
+  <h1>Muhammad Danyal</h1>
   <div class="hero-role">Junior DevOps Engineer</div>
-  <div class="hero-loc">&#128205; Peshawar, Pakistan</div>
+  <div class="hero-loc">Peshawar, Pakistan</div>
   <p>I am a Junior DevOps Engineer who loves working with technology and solving real problems. I enjoy setting up automated systems, managing cloud servers, and making sure developers and operations teams can work smoothly together.</p>
   <div class="hero-btns">
-    <a href="mailto:danyalkhansefl@gmail.com"><button class="btn-primary">&#9993; Contact Me</button></a>
-    <a href="https://linkedin.com/in/muhammaddanyal-4571293a6" target="_blank"><button class="btn-outline">&#128279; LinkedIn</button></a>
+    <a href="mailto:danyalkhansefl@gmail.com"><button class="btn-primary">Contact Me</button></a>
+    <a href="https://linkedin.com/in/muhammaddanyal-4571293a6" target="_blank"><button class="btn-outline">LinkedIn</button></a>
   </div>
   <div class="contact-chips">
     <span class="chip">danyalkhansefl@gmail.com</span>
@@ -123,14 +123,14 @@
   <div class="section-title">Technical Skills</div>
   <div class="section-sub">What I work with</div>
   <div class="skills-grid">
-    <div class="skill-card"><div class="skill-icon">&#9729;</div><div class="skill-name">Cloud</div><div class="skill-tags"><span class="tag">AWS EC2</span><span class="tag">S3</span><span class="tag">IAM</span><span class="tag">VPC</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#9881;</div><div class="skill-name">CI/CD</div><div class="skill-tags"><span class="tag">Jenkins</span><span class="tag">GitHub Actions</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#128679;</div><div class="skill-name">Containers</div><div class="skill-tags"><span class="tag">Docker</span><span class="tag">Docker Compose</span><span class="tag">Kubernetes</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#128187;</div><div class="skill-name">IaC</div><div class="skill-tags"><span class="tag">Terraform</span><span class="tag">Ansible</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#128196;</div><div class="skill-name">Scripting</div><div class="skill-tags"><span class="tag">Bash</span><span class="tag">Python</span><span class="tag">Linux</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#128202;</div><div class="skill-name">Monitoring</div><div class="skill-tags"><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">ELK</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#127760;</div><div class="skill-name">Networking</div><div class="skill-tags"><span class="tag">DNS</span><span class="tag">TCP/IP</span><span class="tag">UDP</span></div></div>
-    <div class="skill-card"><div class="skill-icon">&#128279;</div><div class="skill-name">Version Control</div><div class="skill-tags"><span class="tag">Git</span><span class="tag">GitHub</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-cloud"></i></div><div class="skill-name">Cloud</div><div class="skill-tags"><span class="tag">AWS EC2</span><span class="tag">S3</span><span class="tag">IAM</span><span class="tag">VPC</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-git-branch"></i></div><div class="skill-name">CI/CD</div><div class="skill-tags"><span class="tag">Jenkins</span><span class="tag">GitHub Actions</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-brand-docker"></i></div><div class="skill-name">Containers</div><div class="skill-tags"><span class="tag">Docker</span><span class="tag">Docker Compose</span><span class="tag">Kubernetes</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-server"></i></div><div class="skill-name">IaC</div><div class="skill-tags"><span class="tag">Terraform</span><span class="tag">Ansible</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-terminal"></i></div><div class="skill-name">Scripting</div><div class="skill-tags"><span class="tag">Bash</span><span class="tag">Python</span><span class="tag">Linux</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-chart-line"></i></div><div class="skill-name">Monitoring</div><div class="skill-tags"><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">ELK</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-network"></i></div><div class="skill-name">Networking</div><div class="skill-tags"><span class="tag">DNS</span><span class="tag">TCP/IP</span><span class="tag">UDP</span></div></div>
+    <div class="skill-card"><div class="skill-icon"><i class="ti ti-brand-github"></i></div><div class="skill-name">Version Control</div><div class="skill-tags"><span class="tag">Git</span><span class="tag">GitHub</span></div></div>
   </div>
 </section>
 
@@ -156,13 +156,11 @@
   <div class="section-sub">What I have built</div>
   <div class="proj-grid">
     <div class="proj-card">
-      <div class="proj-icon">&#9989;</div>
       <div class="proj-title">Automated CI/CD Pipeline</div>
       <div class="proj-desc">Built a fully automated pipeline that pulls code from GitHub, runs tests, builds a Docker image, and deploys to AWS EC2 with Slack notifications for build status updates.</div>
       <div class="skill-tags"><span class="tag">Jenkins</span><span class="tag">Docker</span><span class="tag">GitHub</span><span class="tag">AWS EC2</span></div>
     </div>
     <div class="proj-card">
-      <div class="proj-icon">&#127760;</div>
       <div class="proj-title">Infrastructure as Code – AWS</div>
       <div class="proj-desc">Provisioned a complete AWS environment (VPC, EC2, S3, Security Groups) using Terraform and used Ansible playbooks to deploy a Node.js application automatically.</div>
       <div class="skill-tags"><span class="tag">Terraform</span><span class="tag">Ansible</span><span class="tag">AWS</span></div>
@@ -186,10 +184,10 @@
   <div class="section-title">Certifications</div>
   <div class="section-sub">What I have earned</div>
   <div class="cert-grid">
-    <div class="cert-card"><div class="cert-icon">&#127942;</div><div><div class="cert-name">AWS Essentials</div></div></div>
-    <div class="cert-card"><div class="cert-icon">&#127942;</div><div><div class="cert-name">Docker Essentials</div></div></div>
-    <div class="cert-card"><div class="cert-icon">&#127942;</div><div><div class="cert-name">Linux Fundamentals</div></div></div>
-    <div class="cert-card"><div class="cert-icon">&#127942;</div><div><div class="cert-name">Git &amp; GitHub Bootcamp</div></div></div>
+    <div class="cert-card"><div class="cert-icon"><i class="ti ti-award"></i></div><div><div class="cert-name">AWS Essentials</div></div></div>
+    <div class="cert-card"><div class="cert-icon"><i class="ti ti-award"></i></div><div><div class="cert-name">Docker Essentials</div></div></div>
+    <div class="cert-card"><div class="cert-icon"><i class="ti ti-award"></i></div><div><div class="cert-name">Linux Fundamentals</div></div></div>
+    <div class="cert-card"><div class="cert-icon"><i class="ti ti-award"></i></div><div><div class="cert-name">Git &amp; GitHub Bootcamp</div></div></div>
   </div>
 </section>
 
@@ -197,10 +195,10 @@
   <div class="section-title">Soft Skills</div>
   <div class="section-sub">How I work</div>
   <div class="soft-grid">
-    <div class="soft-card">&#128161;<br/>Problem Solving</div>
-    <div class="soft-card">&#128101;<br/>Team Collaboration</div>
-    <div class="soft-card">&#128640;<br/>Fast Learner</div>
-    <div class="soft-card">&#128172;<br/>Communication</div>
+    <div class="soft-card"><i class="ti ti-bulb"></i>Problem Solving</div>
+    <div class="soft-card"><i class="ti ti-users"></i>Team Collaboration</div>
+    <div class="soft-card"><i class="ti ti-rocket"></i>Fast Learner</div>
+    <div class="soft-card"><i class="ti ti-message"></i>Communication</div>
   </div>
 </section>
 
@@ -209,10 +207,10 @@
   <div class="section-sub">Get in touch</div>
   <div class="contact-grid">
     <div class="contact-info">
-      <div class="contact-item"><div><div class="contact-label">Email</div><div class="contact-val">danyalkhansefl@gmail.com</div></div></div>
-      <div class="contact-item"><div><div class="contact-label">Phone</div><div class="contact-val">+92 341 6969601</div></div></div>
-      <div class="contact-item"><div><div class="contact-label">Location</div><div class="contact-val">Peshawar, Pakistan</div></div></div>
-      <div class="contact-item"><div><div class="contact-label">LinkedIn</div><div class="contact-val">linkedin.com/in/muhammaddanyal-4571293a6</div></div></div>
+      <div class="contact-item"><i class="ti ti-mail"></i><div><div class="contact-label">Email</div><div class="contact-val">danyalkhansefl@gmail.com</div></div></div>
+      <div class="contact-item"><i class="ti ti-phone"></i><div><div class="contact-label">Phone</div><div class="contact-val">+92 341 6969601</div></div></div>
+      <div class="contact-item"><i class="ti ti-map-pin"></i><div><div class="contact-label">Location</div><div class="contact-val">Peshawar, Pakistan</div></div></div>
+      <div class="contact-item"><i class="ti ti-brand-linkedin"></i><div><div class="contact-label">LinkedIn</div><div class="contact-val">linkedin.com/in/muhammaddanyal-4571293a6</div></div></div>
     </div>
     <div class="contact-form">
       <input type="text" placeholder="Your Name"/>
@@ -227,3 +225,6 @@
 <footer>© 2025 Muhammad Danyal · Junior DevOps Engineer · Peshawar, Pakistan</footer>
 </body>
 </html>
+
+
+Done
